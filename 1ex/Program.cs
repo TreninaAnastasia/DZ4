@@ -14,10 +14,10 @@ int A = Prompt ("Введите первое число");
 int B = Prompt ("Введите второе число");
 int FindProduct (int a, int b)
 {
-    int rez = A;
+    int rez = a;
         for ( int i = 1; i < b; i ++)
         {
-        rez *= A;
+        rez *= b;
         }
     return rez;
 }
